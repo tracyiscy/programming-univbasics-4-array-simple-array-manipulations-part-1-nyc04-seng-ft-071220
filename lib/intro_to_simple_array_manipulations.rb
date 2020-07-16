@@ -1,19 +1,19 @@
 def using_push(array,string)
-  array_push(string)
+  array.push(string)
 end
 
-def using_push(array,string)
-
+def using_unshift(array,string)
+  array.unshift(string)
 end
 
-def using_push(array,string)
-
+def using_pop(array)
+  array.pop
 end
 
-def using_push(array,string)
-
+def pop_with_args(array)
+  array[2].shift
 end
 
-def using_push(array,string)
-
+def using_shift(array)
+  array.shift
 end
